@@ -5,17 +5,17 @@
 /*}*/
 
 .navbar {
-	background-color: #D62F01;
-    border-color: #D62F01;
+	background-color: #cc0000;
+    border-color: #cc0000;
 }
 
 .navbar-nav li a{
-    color:#1ad1ff;
+    color: black;
 }
 
 
 .navbar-brand {
-    color:#1ad1ff;
+    color: black;
 }
 
 .jumbotron {
@@ -30,16 +30,16 @@
 }
 
 .jumbotron h1{
-	color:#DB7093;
+	color: black;
 }
 .jumbotron {
-	color:#DB7093;
+	color:#cc0000;
 	margin: 0;
 }
 
 .jumbotron .btn {
-	background-color:#D62F01;
-	border-color: #D62F01;
+	background-color:#cc0000;
+	border-color: #cc0000;
 }
 
 .section{
@@ -47,28 +47,28 @@
 }
 
 .section h1 {
-	color: :#DB7093;
+	color: :#cc0000;
 }
 
 
 .donate h3 {
-	color: :#DB7093;
+	color: :#cc0000;
 }
 
 
 .grey-light {
-    background-color: #f2f2f2;
+    background-color: #cc0000;
 }
 
 .orange {
-	background-color: #EF5330;
+	background-color: #cc0000;
 }
 
 
 .footer {
 
-    background-color: #D62F01;
-   border-color: #D62F01;
+    background-color: #cc0000;
+   border-color:#cc0000;
    padding-top: 50px;
    padding-bottom: 50px;
 
@@ -83,6 +83,11 @@
 }
 img {
     max-width: 100%;
+}
+
+.carousel-inner > .item > img {
+  width:2000px;
+  height:400px;
 }
 
 #social ul{
@@ -117,7 +122,7 @@ img {
 }
 
  p {
-     color:#1ad1ff;
+     color: black;
      font-family:'Rubik', sans-serif;
     
  }
@@ -138,7 +143,7 @@ img {
 
 /* Modal Content/Box */
 .modal-content {
-    background-color: #fefefe;
+    background-color: #cc0000;
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
@@ -147,7 +152,7 @@ img {
 
 /* The Close Button */
 .close {
-    color: #aaa;
+    color: black;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -158,4 +163,20 @@ img {
     color: black;
     text-decoration: none;
     cursor: pointer;
+}
+
+.facebook:hover {
+    opacity: 0.7;
+}
+
+.twitter:hover {
+    opacity: 0.7;
+}
+
+.instagram:hover {
+    opacity: 0.7;
+}
+
+#li:hover {
+    opacity: 0.7;
 }

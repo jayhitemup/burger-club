@@ -17,14 +17,3 @@ window.onclick = function(event) {
     }
 }
 
-$(".col-sm-6").mouseover(function(){
-    $(this).animate({
-        paddingTop: "15px"
-    }, 100);
-}).mouseout(function(){
-    $(this).animate({
-        paddingTop: "10px"
-    }, 100);
-});
-
-});
